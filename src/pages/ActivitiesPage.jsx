@@ -11,7 +11,6 @@ export default function ActivitiesPage() {
         title="A curated overview of workshops and creative wellbeing moments."
         description="This section presents each Feel To Heal AIU activity in full, with dedicated detail pages and a clean visual summary rather than a crowded image gallery."
         contentClassName="max-w-5xl"
-        titleClassName="lg:text-nowrap"
       />
       <section className="mx-auto max-w-7xl px-6 py-20 sm:px-8 lg:px-10">
         <SectionHeader

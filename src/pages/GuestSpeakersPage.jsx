@@ -11,7 +11,6 @@ export default function GuestSpeakersPage() {
         title="Voices of encouragement, mentorship, and shared perspective."
         description="Feel To Heal AIU includes guest speaker participation to strengthen reflection, confidence, and healthier conversations around student life."
         contentClassName="max-w-5xl"
-        titleClassName="lg:text-nowrap"
       />
       <section className="mx-auto max-w-7xl px-6 py-20 sm:px-8 lg:px-10">
         <SectionHeader

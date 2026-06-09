@@ -106,7 +106,6 @@ export default function HomePage() {
           eyebrow="Why it matters"
           title="From stress to expression, students deserve room to breathe."
           description="Feel To Heal AIU offers more than activities. It creates a softer emotional pathway from pressure into creativity, encouragement, and human connection."
-          titleClassName="lg:text-nowrap"
         />
         <div className="mt-10 grid gap-8 lg:grid-cols-[1.1fr_0.9fr]">
           <article className="rounded-[2.5rem] border border-emerald-100 bg-white/95 p-8 shadow-[0_24px_60px_-40px_rgba(6,78,59,0.35)]">
@@ -144,7 +143,6 @@ export default function HomePage() {
           eyebrow="Project impact"
           title="A calm, creative model for student wellbeing."
           description="Feel To Heal AIU blends art, peer connection, and sustainability into a student experience that feels restorative, social, and meaningful."
-          titleClassName="lg:text-nowrap"
         />
         <div className="mt-10 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
           {highlights.map(({ icon: Icon, title, description }) => (
@@ -168,7 +166,6 @@ export default function HomePage() {
             eyebrow="Featured activities"
             title="Curated highlights from the Feel To Heal journey."
             description="Featured cards now mix real posters and event photos to make the project feel more visual, polished, and memorable."
-            titleClassName="lg:text-nowrap"
           />
           <div className="mt-10 grid gap-8 lg:grid-cols-2">
             {activities.map((activity) => (

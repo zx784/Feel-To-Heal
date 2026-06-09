@@ -53,7 +53,6 @@ export default function ActivityDetailPage() {
         title={activity.title}
         description={activity.identityLine}
         contentClassName="max-w-5xl"
-        titleClassName="lg:text-nowrap"
       />
       <section className="mx-auto max-w-7xl space-y-16 px-6 py-16 sm:px-8 lg:px-10">
         <Link

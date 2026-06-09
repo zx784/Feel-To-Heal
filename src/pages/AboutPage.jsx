@@ -15,7 +15,6 @@ export default function AboutPage() {
         eyebrow="About Feel To Heal AIU"
         title="A student-led response to pressure, stress, and the need for meaningful connection."
         description="Feel To Heal AIU creates a simple creative space where students can paint, talk, relax, and receive encouragement through guest sharing sessions."
-        titleClassName="xl:text-nowrap"
       />
 
       <section className="mx-auto max-w-7xl space-y-20 px-6 py-20 sm:px-8 lg:px-10">
