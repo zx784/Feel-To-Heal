@@ -10,6 +10,8 @@ export default function MembersPage() {
         eyebrow="Members"
         title="The people guiding, leading, and building Feel To Heal AIU."
         description="This page now reflects the real project hierarchy, from advisor and project leader to the coordinators and technical support team helping the initiative grow."
+        contentClassName="max-w-5xl"
+        titleClassName="lg:text-nowrap"
       />
       <section className="mx-auto max-w-7xl space-y-20 px-6 py-20 sm:px-8 lg:px-10">
         <div>
@@ -17,6 +19,7 @@ export default function MembersPage() {
             eyebrow="Advisor"
             title="Academic guidance at the heart of the project"
             description="A featured card gives the project advisor a more premium and visible presentation."
+            titleClassName="xl:text-nowrap"
           />
           <div className="mt-10">
             <MemberCard member={advisor} variant="featured" />

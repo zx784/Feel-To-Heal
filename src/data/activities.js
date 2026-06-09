@@ -76,7 +76,7 @@ export const activities = [
   {
     slug: "workshop-2",
     category: "Workshop 2",
-    title: "Feel To Heal Workshop 2: Canvas Painting Session",
+    title: "Feel To Heal Workshop 2",
     shortDescription:
       "A guided canvas painting session where students enjoyed a creative break, inspiring mini talks, refreshments, and a personalized canvas to keep.",
     description:

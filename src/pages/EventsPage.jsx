@@ -11,6 +11,8 @@ export default function EventsPage() {
         eyebrow="Events"
         title="An official event timeline that stays clean and easy to follow."
         description="This page lists all official Feel To Heal AIU events in sequence and links each one to the same detail page used in the activities section, avoiding duplicated content."
+        contentClassName="max-w-5xl"
+        titleClassName="lg:text-nowrap"
       />
       <section className="mx-auto max-w-7xl px-6 py-20 sm:px-8 lg:px-10">
         <SectionHeader

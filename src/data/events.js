@@ -17,7 +17,7 @@ export const events = [
   },
   {
     id: "event-workshop-2",
-    title: "Feel To Heal Workshop 2: Canvas Painting Session",
+    title: "Feel To Heal Workshop 2",
     date: "24 May 2026",
     label: "Workshop 2",
     venue: "Male MPH",

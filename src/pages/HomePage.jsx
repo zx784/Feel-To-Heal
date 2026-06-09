@@ -47,8 +47,7 @@ export default function HomePage() {
         <div className="absolute bottom-10 left-1/2 h-44 w-44 -translate-x-1/2 rounded-full bg-emerald-200/40 blur-3xl" />
         <div className="relative mx-auto grid max-w-7xl gap-12 px-6 py-20 sm:px-8 lg:grid-cols-[1.08fr_0.92fr] lg:px-10 lg:py-28">
           <div className="flex flex-col justify-center">
-            <div className="mb-6 inline-flex w-fit items-center gap-3 rounded-full border border-emerald-200 bg-white/90 px-5 py-2 text-sm font-medium text-emerald-700 shadow-sm">
-              <span className="h-2 w-2 rounded-full bg-emerald-500" />
+            <div className="mb-6 inline-flex w-fit items-center rounded-full border border-emerald-200 bg-white/90 px-5 py-2 text-sm font-medium text-emerald-700 shadow-sm">
               Student-led wellbeing and social business project
             </div>
             <div className="space-y-6">
@@ -107,6 +106,7 @@ export default function HomePage() {
           eyebrow="Why it matters"
           title="From stress to expression, students deserve room to breathe."
           description="Feel To Heal AIU offers more than activities. It creates a softer emotional pathway from pressure into creativity, encouragement, and human connection."
+          titleClassName="lg:text-nowrap"
         />
         <div className="mt-10 grid gap-8 lg:grid-cols-[1.1fr_0.9fr]">
           <article className="rounded-[2.5rem] border border-emerald-100 bg-white/95 p-8 shadow-[0_24px_60px_-40px_rgba(6,78,59,0.35)]">
@@ -144,6 +144,7 @@ export default function HomePage() {
           eyebrow="Project impact"
           title="A calm, creative model for student wellbeing."
           description="Feel To Heal AIU blends art, peer connection, and sustainability into a student experience that feels restorative, social, and meaningful."
+          titleClassName="lg:text-nowrap"
         />
         <div className="mt-10 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
           {highlights.map(({ icon: Icon, title, description }) => (
@@ -167,6 +168,7 @@ export default function HomePage() {
             eyebrow="Featured activities"
             title="Curated highlights from the Feel To Heal journey."
             description="Featured cards now mix real posters and event photos to make the project feel more visual, polished, and memorable."
+            titleClassName="lg:text-nowrap"
           />
           <div className="mt-10 grid gap-8 lg:grid-cols-2">
             {activities.map((activity) => (

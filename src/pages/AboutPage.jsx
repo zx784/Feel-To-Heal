@@ -15,6 +15,7 @@ export default function AboutPage() {
         eyebrow="About Feel To Heal AIU"
         title="A student-led response to pressure, stress, and the need for meaningful connection."
         description="Feel To Heal AIU creates a simple creative space where students can paint, talk, relax, and receive encouragement through guest sharing sessions."
+        titleClassName="xl:text-nowrap"
       />
 
       <section className="mx-auto max-w-7xl space-y-20 px-6 py-20 sm:px-8 lg:px-10">
@@ -23,11 +24,15 @@ export default function AboutPage() {
             <SectionHeader
               eyebrow="Background"
               title="Why this project exists"
-              description="University students may experience academic pressure, stress, loneliness, and limited opportunities for affordable relaxation."
             />
-            <p className="text-base leading-8 text-slate-600">
+            <div className="space-y-4 text-base font-normal leading-8 text-slate-600">
+              <p>
+                University students may experience academic pressure, stress, loneliness, and limited opportunities for affordable relaxation.
+              </p>
+              <p>
               Feel To Heal AIU responds by building a warm, creative environment where students can slow down, express themselves through painting, and strengthen social bonds in a supportive setting. The website presents that story in a clean, professional format suitable for students, lecturers, visitors, and evaluators.
-            </p>
+              </p>
+            </div>
           </div>
           <div className="overflow-hidden rounded-[2.5rem] border border-white/80 bg-white/90 p-3 shadow-[0_30px_90px_-45px_rgba(6,78,59,0.35)]">
             <img

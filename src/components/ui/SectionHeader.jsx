@@ -1,13 +1,20 @@
-export default function SectionHeader({ eyebrow, title, description, center = false }) {
+export default function SectionHeader({
+  eyebrow,
+  title,
+  description,
+  center = false,
+  className = "",
+  titleClassName = "",
+}) {
   return (
-    <div className={`space-y-4 ${center ? "mx-auto max-w-3xl text-center" : "max-w-3xl"}`}>
+    <div className={`space-y-4 ${center ? "mx-auto max-w-4xl text-center" : "max-w-4xl"} ${className}`}>
       {eyebrow ? (
         <span className="inline-flex rounded-full border border-emerald-200 bg-white/70 px-4 py-1 text-xs font-semibold uppercase tracking-[0.24em] text-emerald-700">
           {eyebrow}
         </span>
       ) : null}
       <div className="space-y-3">
-        <h2 className="text-balance font-heading text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl">
+        <h2 className={`text-balance font-heading text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl ${titleClassName}`}>
           {title}
         </h2>
         {description ? (

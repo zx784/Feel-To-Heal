@@ -20,4 +20,25 @@ export const speakers = [
     eventLabel: "Opening Ceremony — Balancing Life Beyond Academic Pressure",
     image: null,
   },
+  {
+    id: "noor-jannah-binti-afi",
+    name: "Noor Jannah Binti Afi",
+    role: "Lecturer / Head of Programme, Bachelor of Business Administration (Honours)",
+    eventLabel: "Workshop 1 — Feel To Heal Workshop 1",
+    image: null,
+  },
+  {
+    id: "norizan",
+    name: "Norizan",
+    role: "Workshop Guest",
+    eventLabel: "Workshop 1 — Feel To Heal Workshop 1",
+    image: null,
+  },
+  {
+    id: "norol-izzati",
+    name: "Norol Izzati",
+    role: "Guest Participant",
+    eventLabel: "Workshop Session",
+    image: null,
+  },
 ];
